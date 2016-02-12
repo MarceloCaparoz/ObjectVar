@@ -1,0 +1,2 @@
+# ObjectVar
+Object Variable emulator.
