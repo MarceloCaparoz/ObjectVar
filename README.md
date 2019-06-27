@@ -3,9 +3,10 @@ Cria em tempo real varios tipos de variáveis como um objeto.
 
 Um exemplo básico:
 
-<?php
+```php
+
 require("ObjectVarClass.php");
-echo "<pre>";
+
 $var1 = new ObjectVar;
 
 $var1->create("objectname","people1");
@@ -25,8 +26,9 @@ $var1->arr1["birthday"]["day"]="15";
 $var1->arr1["birthday"]["month"]="september";
 $var1->arr1["beauty"]=true;
 print_r($var1->arr1);
-echo "</pre>";
-?>
+
+
+```
 
 
 Para um exemplo mais avançado leia o arquivo getProxiesExample.php
